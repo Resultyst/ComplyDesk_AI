@@ -1,0 +1,92 @@
+[
+  {
+    "ticket_id": "TKT-A1B2C3D4",
+    "customer_id": "CUST-001",
+    "subject": "Double charge on corporate card ending 4412",
+    "status": "open",
+    "sensitivity": "medium",
+    "created_at": "2026-07-04T14:30:00Z",
+    "summary": "Customer reports duplicate charge of $2,450 on corporate Visa ending 4412 from vendor TechSupply Inc."
+  },
+  {
+    "ticket_id": "TKT-E5F6G7H8",
+    "customer_id": "CUST-001",
+    "subject": "Wire transfer status inquiry",
+    "status": "resolved",
+    "sensitivity": "low",
+    "created_at": "2026-07-01T09:00:00Z",
+    "summary": "Customer inquired about the status of an international wire transfer to Singapore branch."
+  },
+  {
+    "ticket_id": "TKT-I9J0K1L2",
+    "customer_id": "CUST-002",
+    "subject": "Unauthorized transaction on debit card",
+    "status": "open",
+    "sensitivity": "high",
+    "created_at": "2026-07-03T09:15:00Z",
+    "summary": "Customer reports an unauthorized $890 ATM withdrawal in a city they have not visited."
+  },
+  {
+    "ticket_id": "TKT-M3N4O5P6",
+    "customer_id": "CUST-002",
+    "subject": "Request to update mailing address",
+    "status": "resolved",
+    "sensitivity": "low",
+    "created_at": "2026-06-28T11:20:00Z",
+    "summary": "Customer moved to a new apartment and needs mailing address updated for statements."
+  },
+  {
+    "ticket_id": "TKT-Q7R8S9T0",
+    "customer_id": "CUST-003",
+    "subject": "Dispute on subscription charge",
+    "status": "pending",
+    "sensitivity": "medium",
+    "created_at": "2026-07-02T16:45:00Z",
+    "summary": "Customer disputes a recurring $49.99 charge from StreamMax that was supposed to be cancelled."
+  },
+  {
+    "ticket_id": "TKT-U1V2W3X4",
+    "customer_id": "CUST-003",
+    "subject": "Account statement download issue",
+    "status": "resolved",
+    "sensitivity": "low",
+    "created_at": "2026-06-25T08:30:00Z",
+    "summary": "Customer unable to download Q2 account statement in PDF format from the portal."
+  },
+  {
+    "ticket_id": "TKT-Y5Z6A7B8",
+    "customer_id": "CUST-004",
+    "subject": "Suspected fraud on institutional trading account",
+    "status": "open",
+    "sensitivity": "high",
+    "created_at": "2026-07-05T08:00:00Z",
+    "summary": "Compliance officer reports suspicious after-hours trades totaling $1.2M on sub-account 44-TRD."
+  },
+  {
+    "ticket_id": "TKT-C9D0E1F2",
+    "customer_id": "CUST-004",
+    "subject": "API rate limit increase request",
+    "status": "pending",
+    "sensitivity": "low",
+    "created_at": "2026-07-04T10:00:00Z",
+    "summary": "Customer requests rate limit increase from 1000 to 5000 requests/min for market data API."
+  },
+  {
+    "ticket_id": "TKT-G3H4I5J6",
+    "customer_id": "CUST-001",
+    "subject": "Refund for failed international transfer",
+    "status": "pending",
+    "sensitivity": "medium",
+    "created_at": "2026-06-30T13:45:00Z",
+    "summary": "Customer requests refund of $150 fee for an international transfer that failed due to incorrect SWIFT code."
+  },
+  {
+    "ticket_id": "TKT-K7L8M9N0",
+    "customer_id": "CUST-002",
+    "subject": "Mobile app login issues",
+    "status": "resolved",
+    "sensitivity": "low",
+    "created_at": "2026-06-27T15:10:00Z",
+    "summary": "Customer unable to log in to mobile app after OS update. Biometric authentication not working."
+  }
+]

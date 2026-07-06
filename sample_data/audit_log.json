@@ -1,0 +1,122 @@
+[
+  {
+    "audit_id": "AUD-001",
+    "timestamp": "2026-06-18T10:15:00Z",
+    "ticket_id": "TKT-SUR-001",
+    "customer_id": "CUST-001",
+    "sensitivity": "high",
+    "model_selected": "Ollama/llama3",
+    "routing_reason": "High-sensitivity ticket containing compliance risks routed to local Ollama hardware. [Compliance: True] [Budget: False] [Health: Groq=healthy, Ollama=healthy, Hindsight=healthy] | Memory: hindsight (recalled=2) | Cost saved: $0.05000 (baseline: $0.05000, actual: $0.00000)",
+    "memory_used": true,
+    "latency_ms": 850,
+    "estimated_cost_usd": 0.0
+  },
+  {
+    "audit_id": "AUD-002",
+    "timestamp": "2026-06-26T12:40:00Z",
+    "ticket_id": "TKT-SUR-002",
+    "customer_id": "CUST-001",
+    "sensitivity": "medium",
+    "model_selected": "Ollama/llama3",
+    "routing_reason": "Medium-sensitivity ticket containing PII/finance details routed to local Ollama hardware. [Compliance: True] [Budget: False] [Health: Groq=healthy, Ollama=healthy, Hindsight=healthy] | Memory: hindsight (recalled=2) | Cost saved: $0.05000 (baseline: $0.05000, actual: $0.00000)",
+    "memory_used": true,
+    "latency_ms": 620,
+    "estimated_cost_usd": 0.0
+  },
+  {
+    "audit_id": "AUD-003",
+    "timestamp": "2026-07-02T09:20:00Z",
+    "ticket_id": "TKT-SUR-003",
+    "customer_id": "CUST-001",
+    "sensitivity": "medium",
+    "model_selected": "Ollama/llama3",
+    "routing_reason": "Medium-sensitivity ticket containing PII/finance details routed to local Ollama hardware. [Compliance: True] [Budget: False] [Health: Groq=healthy, Ollama=healthy, Hindsight=healthy] | Memory: hindsight (recalled=2) | Cost saved: $0.05000 (baseline: $0.05000, actual: $0.00000)",
+    "memory_used": true,
+    "latency_ms": 620,
+    "estimated_cost_usd": 0.0
+  },
+  {
+    "audit_id": "AUD-004",
+    "timestamp": "2026-06-20T08:30:00Z",
+    "ticket_id": "TKT-NAR-001",
+    "customer_id": "CUST-002",
+    "sensitivity": "low",
+    "model_selected": "Groq/openai/gpt-oss-120b",
+    "routing_reason": "Low-sensitivity ticket routed to cost-optimized Groq cloud model. [Compliance: False] [Budget: True] [Health: Groq=healthy, Ollama=healthy, Hindsight=healthy] | Memory: hindsight (recalled=2) | Cost saved: $0.00000 (baseline: $0.00300, actual: $0.00300)",
+    "memory_used": true,
+    "latency_ms": 340,
+    "estimated_cost_usd": 0.003
+  },
+  {
+    "audit_id": "AUD-005",
+    "timestamp": "2026-06-29T15:05:00Z",
+    "ticket_id": "TKT-NAR-002",
+    "customer_id": "CUST-002",
+    "sensitivity": "low",
+    "model_selected": "Groq/openai/gpt-oss-120b",
+    "routing_reason": "Low-sensitivity ticket routed to cost-optimized Groq cloud model. [Compliance: False] [Budget: True] [Health: Groq=healthy, Ollama=healthy, Hindsight=healthy] | Memory: hindsight (recalled=2) | Cost saved: $0.00000 (baseline: $0.00300, actual: $0.00300)",
+    "memory_used": true,
+    "latency_ms": 340,
+    "estimated_cost_usd": 0.003
+  },
+  {
+    "audit_id": "AUD-006",
+    "timestamp": "2026-07-03T18:10:00Z",
+    "ticket_id": "TKT-NAR-003",
+    "customer_id": "CUST-002",
+    "sensitivity": "medium",
+    "model_selected": "Ollama/llama3",
+    "routing_reason": "Medium-sensitivity ticket containing PII/finance details routed to local Ollama hardware. [Compliance: True] [Budget: False] [Health: Groq=healthy, Ollama=healthy, Hindsight=healthy] | Memory: hindsight (recalled=2) | Cost saved: $0.05000 (baseline: $0.05000, actual: $0.00000)",
+    "memory_used": true,
+    "latency_ms": 620,
+    "estimated_cost_usd": 0.0
+  },
+  {
+    "audit_id": "AUD-007",
+    "timestamp": "2026-06-17T11:25:00Z",
+    "ticket_id": "TKT-SAN-001",
+    "customer_id": "CUST-003",
+    "sensitivity": "medium",
+    "model_selected": "Ollama/llama3",
+    "routing_reason": "Medium-sensitivity ticket containing PII/finance details routed to local Ollama hardware. [Compliance: True] [Budget: False] [Health: Groq=healthy, Ollama=healthy, Hindsight=healthy] | Memory: hindsight (recalled=2) | Cost saved: $0.05000 (baseline: $0.05000, actual: $0.00000)",
+    "memory_used": true,
+    "latency_ms": 620,
+    "estimated_cost_usd": 0.0
+  },
+  {
+    "audit_id": "AUD-008",
+    "timestamp": "2026-07-04T10:00:00Z",
+    "ticket_id": "TKT-SAN-003",
+    "customer_id": "CUST-003",
+    "sensitivity": "high",
+    "model_selected": "Ollama/llama3",
+    "routing_reason": "High-sensitivity ticket containing compliance risks routed to local Ollama hardware. [Compliance: True] [Budget: False] [Health: Groq=healthy, Ollama=healthy, Hindsight=healthy] | Memory: hindsight (recalled=2) | Cost saved: $0.05000 (baseline: $0.05000, actual: $0.00000)",
+    "memory_used": true,
+    "latency_ms": 850,
+    "estimated_cost_usd": 0.0
+  },
+  {
+    "audit_id": "AUD-009",
+    "timestamp": "2026-06-16T09:45:00Z",
+    "ticket_id": "TKT-KUM-001",
+    "customer_id": "CUST-004",
+    "sensitivity": "high",
+    "model_selected": "Ollama/llama3",
+    "routing_reason": "High-sensitivity ticket containing compliance risks routed to local Ollama hardware. [Compliance: True] [Budget: False] [Health: Groq=healthy, Ollama=healthy, Hindsight=healthy] | Memory: hindsight (recalled=2) | Cost saved: $0.05000 (baseline: $0.05000, actual: $0.00000)",
+    "memory_used": true,
+    "latency_ms": 850,
+    "estimated_cost_usd": 0.0
+  },
+  {
+    "audit_id": "AUD-010",
+    "timestamp": "2026-07-01T17:40:00Z",
+    "ticket_id": "TKT-KUM-003",
+    "customer_id": "CUST-004",
+    "sensitivity": "high",
+    "model_selected": "Ollama/llama3",
+    "routing_reason": "High-sensitivity ticket containing compliance risks routed to local Ollama hardware. [Compliance: True] [Budget: False] [Health: Groq=healthy, Ollama=healthy, Hindsight=healthy] | Memory: hindsight (recalled=2) | Cost saved: $0.05000 (baseline: $0.05000, actual: $0.00000)",
+    "memory_used": true,
+    "latency_ms": 850,
+    "estimated_cost_usd": 0.0
+  }
+]

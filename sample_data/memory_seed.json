@@ -1,0 +1,106 @@
+{
+  "CUST-001": [
+    {
+      "key": "customer_preference",
+      "value": "Customer prefers email updates for payment dispute follow-ups.",
+      "source": "ticket_interaction",
+      "timestamp": "2026-06-18T10:15:00Z"
+    },
+    {
+      "key": "support_history",
+      "value": "Customer previously reported a duplicate debit on the NexaPay business expense card.",
+      "source": "ticket_history",
+      "timestamp": "2026-06-18T10:20:00Z"
+    },
+    {
+      "key": "compliance_context",
+      "value": "Refund review for failed payout fee is still pending with finance approval.",
+      "source": "compliance_engine",
+      "timestamp": "2026-07-02T09:20:00Z"
+    },
+    {
+      "key": "customer_preference",
+      "value": "Customer prefers detailed explanations for settlement or payout issues.",
+      "source": "ticket_interaction",
+      "timestamp": "2026-07-02T09:30:00Z"
+    }
+  ],
+  "CUST-002": [
+    {
+      "key": "customer_preference",
+      "value": "Customer prefers quick chat-based support.",
+      "source": "ticket_interaction",
+      "timestamp": "2026-06-20T08:30:00Z"
+    },
+    {
+      "key": "support_history",
+      "value": "Customer recently asked about refund timeline for a cancelled card order.",
+      "source": "ticket_history",
+      "timestamp": "2026-06-20T08:40:00Z"
+    },
+    {
+      "key": "support_history",
+      "value": "Customer needed help activating a virtual card for online payments.",
+      "source": "ticket_history",
+      "timestamp": "2026-06-29T15:05:00Z"
+    },
+    {
+      "key": "compliance_context",
+      "value": "One prior UPI transaction was incorrectly flagged by automated risk checks.",
+      "source": "compliance_engine",
+      "timestamp": "2026-07-03T18:10:00Z"
+    }
+  ],
+  "CUST-003": [
+    {
+      "key": "customer_preference",
+      "value": "Customer prefers email updates for compliance or onboarding issues.",
+      "source": "ticket_interaction",
+      "timestamp": "2026-06-17T11:25:00Z"
+    },
+    {
+      "key": "compliance_context",
+      "value": "Business KYC verification has previously been delayed and required manual review.",
+      "source": "compliance_engine",
+      "timestamp": "2026-06-17T11:30:00Z"
+    },
+    {
+      "key": "compliance_context",
+      "value": "Customer has already resubmitted business documents during an earlier support case.",
+      "source": "compliance_engine",
+      "timestamp": "2026-06-27T14:50:00Z"
+    },
+    {
+      "key": "escalation_context",
+      "value": "Account restriction was previously linked to pending compliance verification.",
+      "source": "escalation_log",
+      "timestamp": "2026-07-04T10:00:00Z"
+    }
+  ],
+  "CUST-004": [
+    {
+      "key": "customer_preference",
+      "value": "Customer prefers email follow-up for dispute or fraud-related cases.",
+      "source": "ticket_interaction",
+      "timestamp": "2026-06-16T09:45:00Z"
+    },
+    {
+      "key": "escalation_context",
+      "value": "Account was previously monitored after a suspicious debit attempt.",
+      "source": "escalation_log",
+      "timestamp": "2026-06-16T10:00:00Z"
+    },
+    {
+      "key": "support_history",
+      "value": "Customer has reported a duplicate debit issue on the premium business card.",
+      "source": "ticket_history",
+      "timestamp": "2026-07-01T17:40:00Z"
+    },
+    {
+      "key": "escalation_context",
+      "value": "Fraud-related cases for this account require prompt escalation and status updates.",
+      "source": "escalation_log",
+      "timestamp": "2026-07-01T18:00:00Z"
+    }
+  ]
+}

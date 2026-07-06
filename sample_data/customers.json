@@ -1,0 +1,42 @@
+[
+  {
+    "customer_id": "CUST-001",
+    "name": "Suryaa",
+    "plan_tier": "Enterprise",
+    "preferred_channel": "Email",
+    "account_type": "Business",
+    "email": "suryaa@resultyst.in",
+    "risk_profile": "billing_and_payout_issues",
+    "last_ticket_at": "2026-07-04T14:30:00Z"
+  },
+  {
+    "customer_id": "CUST-002",
+    "name": "Narayanan",
+    "plan_tier": "Pro",
+    "preferred_channel": "Chat",
+    "account_type": "Personal",
+    "email": "narayanan@example.com",
+    "risk_profile": "general_support",
+    "last_ticket_at": "2026-07-03T09:15:00Z"
+  },
+  {
+    "customer_id": "CUST-003",
+    "name": "Santhosh",
+    "plan_tier": "Starter",
+    "preferred_channel": "Email",
+    "account_type": "Business",
+    "email": "santhosh@startupmail.in",
+    "risk_profile": "kyc_and_onboarding",
+    "last_ticket_at": "2026-07-02T16:45:00Z"
+  },
+  {
+    "customer_id": "CUST-004",
+    "name": "Kumar",
+    "plan_tier": "Enterprise",
+    "preferred_channel": "Email",
+    "account_type": "Institutional",
+    "email": "kumar@harborcapital.in",
+    "risk_profile": "fraud_and_security",
+    "last_ticket_at": "2026-07-05T08:00:00Z"
+  }
+]
