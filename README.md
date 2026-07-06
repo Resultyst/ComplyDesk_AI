@@ -1,4 +1,4 @@
-# ComplyDesk — AI Compliance Support Router
+# ComplyDesk - AI Compliance Support Router
 
 ComplyDesk is a compliance-aware AI support agent for high-performance fintech customer service. It automatically classifies incoming support tickets by compliance sensitivity, retrieves long-term customer memory from **Hindsight Cloud**, and routes the queries dynamically:
 - **Low-sensitivity tickets** to cost-optimized cloud LLMs (**Groq** with `openai/gpt-oss-120b`).
